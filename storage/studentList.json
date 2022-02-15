@@ -1,1 +1,54 @@
-[{"id":"1qw2e3r4","krId":"school-year-class-Registration","name":"Amit","father_name":"Kapil dubey","Registration":"q1aqswded","class":"VI","section":"A","section_alias":"bhagat_singh","year_of_admission":"2021","current_session":"2022","batch":"morniing","attendance":[{"month":"Jan","days":["P","A","P","P","L","HL","H"]},{"month":"Feb","days":["P","A","P","P","L","HL","H"]},{"month":"Mar","days":["P","A","P","P","L","HL","H"]}]},{"name":"Amit","last":"Dubey","roll_no":"","registration_no":"1q2w3er43","father_name":"Kapil Dubey","krId":"school-year-class-Registration","mother":"vimla dev","phon_no":"0009000000","address_1":"","address_2":"","city":"Ghaziabad","state":"Uttarpradesh","pin":"201013","dob":"12/03/2014","email":"amit@gmail.com","category":"Gen","class":"VI","section":"A","concession":["A","B"],"additional":[{"amount":"200","dis":"monthly bus services","type":"bus"}]}]
+[
+    {
+        "id": "1qw2e3r4",
+        "krId": "school-year-class-Registration",
+        "name": "Amit",
+        "father_name": "Kapil dubey",
+        "Registration": "q1aqswded",
+        "class": "VI",
+        "section": "A",
+        "section_alias": "bhagat_singh",
+        "year_of_admission": "2021",
+        "current_session": "2022",
+        "batch": "morniing",
+        "attendance": [
+            {
+                "month": "Jan",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Feb",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Mar",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            }
+        ]
+    }
+   
+]
