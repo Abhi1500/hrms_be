@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const studentController = require('../controllers/studentsController');
-
+const { uploadImg, handleImg } = require('../Middlewares/multer');
 ( function(){
     postRoutes();
     getRouters();
@@ -8,7 +8,7 @@ const studentController = require('../controllers/studentsController');
 
 
 function postRoutes(){
- router.post("/create",studentController.createStudent);
+ router.post("/create",uploadImg('avatar'), handleImg, studentController.createStudent);
   
   
 }

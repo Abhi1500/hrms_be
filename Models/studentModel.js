@@ -2,6 +2,7 @@ exports.createStudent = (obj)=>{
   
     return {
             name:obj.name,
+            avatar:obj.avatar,
             last:obj.last,
             roll_no:obj.roll_no,
             registration_no: obj.registration_no,

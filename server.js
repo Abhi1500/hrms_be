@@ -1,4 +1,5 @@
 const express = require('express')
+const path = require('path');
 const server_app = express();
 const cors = require('cors');
 const usersRouter = require('./Routes/users');
@@ -9,6 +10,7 @@ function initilize_function() {
     configCoresPolicy();
     configBodyParser();
     setRouters();
+    publicDir();
     error404Handeler();
     errorHandler();
 }
@@ -24,10 +26,13 @@ function configBodyParser() {
     server_app.use(express.json())
 }
 
-
 function setRouters() {
     server_app.use('/user', usersRouter)
     server_app.use('/students', studentsRouter)
+}
+
+function publicDir(){
+    server_app.use(express.static(path.resolve('./storage/bucket')));
 }
 
 function error404Handeler() {

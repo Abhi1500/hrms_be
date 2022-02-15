@@ -3,6 +3,7 @@
         "id": "1qw2e3r4",
         "krId": "school-year-class-Registration",
         "name": "Amit",
+        "avatar": "https://fast-anchorage-32246.herokuapp.com/1644949110476.png",
         "father_name": "Kapil dubey",
         "Registration": "q1aqswded",
         "class": "VI",
@@ -50,5 +51,4 @@
             }
         ]
     }
-   
 ]
