@@ -34,8 +34,8 @@ exports.updateStudent = async(req, res) => {
   try {
       const data = fs.readFileSync(filePath,'utf8');
       const dataJson = data ? JSON.parse(data) : [];
-      let foundDetails = dataJson.find(({id})=> id = req.body.id);
-      foundDetails = req.body
+      let index = dataJson.findIndex(({id})=> id == req.body.id);
+      dataJson[index] = req.body;
       fs.writeFile(filePath, JSON.stringify(dataJson), ()=>{});
       res.send({status:200,data:req.body, msg:"data updated successfully"});
     } catch (err) {

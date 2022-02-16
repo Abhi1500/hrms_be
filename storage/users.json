@@ -4,5 +4,11 @@
         "name": "Lalit",
         "email": "a@a.com",
         "password": "123456"
+    },
+    {
+        "id": "2d3f5290-7fe8-435a-9d06-089e7a26cf25",
+        "name": "Sumit",
+        "email": "b@b.com",
+        "password": "abcd"
     }
 ]

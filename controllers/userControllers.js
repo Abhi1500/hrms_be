@@ -26,7 +26,9 @@ exports.signin = async(req, res) => {
         const data = fs.readFileSync(filePath,'utf8');
         const dataJson = JSON.parse(data);
         const record = dataJson.find((rec)=>(rec.email == req.body.email && rec.password == req.body.password));
-        record.token = record ? btoa(JSON.stringify(record)) : res.send({status:401, msg:"Unauthorized User"});;
+        record.token = record ? btoa(JSON.stringify(record)) : res.send({status:401, msg:"Unauthorized User"});
+        delete record.password
+        delete record.email
         res.send({status:200,data:record, msg:"Loggedin successfully"});
       } catch (err) {
         console.error(err)
