@@ -1,8 +1,10 @@
-exports.createStudent = (obj)=>{
+exports.signup = (obj)=>{
   
     return {
             id:obj.id,
             name:obj.name,
+            email:obj.email,
+            password:obj.password,
             avatar:obj.avatar,
             last:obj.last,
             roll_no:obj.roll_no,
