@@ -1,9 +1,9 @@
 [
     {
-        "id": "1qw2e3r4",
+        "id": "1qw2e3r1",
         "krId": "school-year-class-Registration",
         "name": "Amit",
-        "avatar": "https://fast-anchorage-32246.herokuapp.com/1644949110476.png",
+        "avatar": "https://fast-anchorage-32246.herokuapp.com/1644949110471.png",
         "father_name": "Kapil dubey",
         "Registration": "q1aqswded",
         "class": "VI",
@@ -50,5 +50,162 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "1qw2e3r2",
+        "krId": "school-year-class-Registration",
+        "name": "David",
+        "avatar": "https://fast-anchorage-32246.herokuapp.com/1644949110472.png",
+        "father_name": "Paul hansan ",
+        "Registration": "q1aqswded",
+        "class": "VI",
+        "section": "A",
+        "section_alias": "bhagat_singh",
+        "year_of_admission": "2021",
+        "current_session": "2022",
+        "batch": "morniing",
+        "attendance": [
+            {
+                "month": "Jan",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Feb",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Mar",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1qw2e3r3",
+        "krId": "school-year-class-Registration",
+        "name": "Lalit",
+        "avatar": "https://fast-anchorage-32246.herokuapp.com/1644949110473.png",
+        "father_name": "Sunil Singh",
+        "Registration": "q1aqswded",
+        "class": "V",
+        "section": "B",
+        "section_alias": "bhagat_singh",
+        "year_of_admission": "2021",
+        "current_session": "2022",
+        "batch": "morniing",
+        "attendance": [
+            {
+                "month": "Jan",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Feb",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Mar",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1qw2e3r4",
+        "krId": "school-year-class-Registration",
+        "name": "Sumit",
+        "avatar": "https://fast-anchorage-32246.herokuapp.com/1644949110474.png",
+        "father_name": "Nakul dubey",
+        "Registration": "q1aqswded",
+        "class": "VII",
+        "section": "B",
+        "section_alias": "bhagat_singh",
+        "year_of_admission": "2021",
+        "current_session": "2022",
+        "batch": "morniing",
+        "attendance": [
+            {
+                "month": "Jan",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Feb",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Mar",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            }
+        ]
     }
+
 ]
