@@ -206,6 +206,58 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "1qw2e3r5",
+        "krId": "school-year-class-Registration",
+        "name": "Sumit",
+        "avatar": "https://fast-anchorage-32246.herokuapp.com/1644949110475.png",
+        "father_name": "Nakul dubey",
+        "Registration": "q1aqswded",
+        "class": "VII",
+        "section": "B",
+        "section_alias": "bhagat_singh",
+        "year_of_admission": "2021",
+        "current_session": "2022",
+        "batch": "morniing",
+        "attendance": [
+            {
+                "month": "Jan",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Feb",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            },
+            {
+                "month": "Mar",
+                "days": [
+                    "P",
+                    "A",
+                    "P",
+                    "P",
+                    "L",
+                    "HL",
+                    "H"
+                ]
+            }
+        ]
     }
 
 ]
