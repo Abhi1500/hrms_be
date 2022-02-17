@@ -9,10 +9,12 @@ const userController = require('../controllers/userControllers');
 
 function postRoutes(){
  router.post("/signup",userController.signup);
+router.post("/signin",userController.signin);
+
 }
 
 function getRouters(){
-router.get("/signin",userController.signin);
+
 }
 
 module.exports = router;

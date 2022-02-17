@@ -5,6 +5,7 @@ const { uploadImg, handleImg } = require('../Middlewares/multer');
     postRoutes();
     getRouters();
     patchRoutes();
+    deleteRouters();
 } )()
 
 
@@ -18,7 +19,11 @@ function patchRoutes() {
 
 function getRouters(){
 router.get("/list",studentController.studentList);
-router.get("/delete",studentController.deleteStudent);
+}
+
+function deleteRouters() {
+router.delete("/delete",studentController.deleteStudent);
+    
 }
 
 module.exports = router;
