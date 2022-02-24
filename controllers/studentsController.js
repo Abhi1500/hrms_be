@@ -29,15 +29,16 @@ exports.createStudent = async(req, res) => {
       }
 }
 
-exports.updateStudent = async(req, res) => {
-
+exports.updateStudent = async(req, res, next) => {
   try {
       const data = fs.readFileSync(filePath,'utf8');
       const dataJson = data ? JSON.parse(data) : [];
+      if(!req.body.id) return next(new Error("Invalid student ID")); 
       let index = dataJson.findIndex(({id})=> id == req.body.id);
-      dataJson[index] = req.body;
+      if(index < 0) return next(new Error("Student not found")); 
+      dataJson[index] = createStudent(req.body);
       fs.writeFile(filePath, JSON.stringify(dataJson), ()=>{});
-      res.send({status:200,data:req.body, msg:"data updated successfully"});
+      res.send({status:200,data:createStudent(req.body), msg:"data updated successfully"});
     } catch (err) {
       console.error(err)
     }

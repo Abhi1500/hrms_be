@@ -14,7 +14,7 @@ function postRoutes(){
 }
 
 function patchRoutes() {
- router.patch("/update",studentController.updateStudent);  
+ router.patch("/update",uploadImg('avatar'), handleImg,studentController.updateStudent);  
 }
 
 function getRouters(){
